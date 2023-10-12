@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laptop\\Source\\Repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj": {}
+    "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Laba3\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laptop\\Source\\Repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj": {
+    "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Laba3\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laptop\\Source\\Repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
+        "projectUniqueName": "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Laba3\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
         "projectName": "Lab1_alexandr_grigorev_kt_41_20",
-        "projectPath": "C:\\Users\\laptop\\Source\\Repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
+        "projectPath": "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Laba3\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
         "packagesPath": "C:\\Users\\laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laptop\\Source\\Repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\obj\\",
+        "outputPath": "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Laba3\\Lab1_alexandr_grigorev_kt_41_20\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,39 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
