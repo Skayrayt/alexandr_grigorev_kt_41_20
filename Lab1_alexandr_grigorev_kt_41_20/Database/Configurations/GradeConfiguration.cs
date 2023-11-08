@@ -35,25 +35,6 @@ namespace Lab3.Database.Configurations
                 .HasColumnType(ColumnType.Date)
                 .HasComment("Дата оценки");
 
-            builder.Property(p => p.SubjectId)
-                .IsRequired()
-                .HasColumnName("c_student_subjectid")
-                .HasColumnType(ColumnType.Int)
-                .HasComment("Идентификатор предмета");
-
-            builder.ToTable(TableName)
-                .HasOne(p => p.Subject)
-                .WithMany(a => a.Grades)
-                .HasForeignKey(P => P.SubjectId)
-                .HasConstraintName("fk_f_subject_id")
-                .OnDelete(DeleteBehavior.Cascade);
-
-            builder.ToTable(TableName)
-                .HasIndex(p => p.SubjectId, $"idx_(TableName)_fk_f_subject_id");
-
-            builder.Navigation(p => p.Subject)
-                .AutoInclude();
-
             builder.Property(p => p.StudentId)
                 .IsRequired()
                 .HasColumnName("c_student_studentid")

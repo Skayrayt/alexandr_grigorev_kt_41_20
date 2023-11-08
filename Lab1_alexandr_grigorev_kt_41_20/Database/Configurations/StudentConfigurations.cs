@@ -40,22 +40,6 @@ namespace Lab3.Database.Configurations
                 .HasColumnType(ColumnType.String).HasMaxLength(100)
                 .HasComment("Отчество студента");
 
-            builder.Property(p => p.GroupId)
-                .IsRequired()
-                .HasColumnName("c_student_groupid")
-                .HasColumnType(ColumnType.Int).HasMaxLength(100)
-                .HasComment("Идентификатор группы");
-
-            builder.ToTable(TableName)
-                .HasOne(p => p.Group)
-                .WithMany(b => b.Students)
-                .HasForeignKey(P => P.GroupId)
-                .HasConstraintName("fk_f_group_id")
-                .OnDelete(DeleteBehavior.Cascade);
-
-            builder.Navigation(p => p.Group)
-                .AutoInclude();
-
         }
     }
 }
