@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cspQB1TmQ5iQJP9lVTCdo0ibCOtOk9ANF843d6qrOzcaqOyK9r+XPjmLaGk6D5URxlTJDArDKQbL76A8PIKu0Q==",
+  "dgSpecHash": "3jyxh5ZE7o3I4c9l0xKbJajikW5jYTgQuUn0Ek9piGRba42DX3un1pLnqSfVOBfOWJto9fYJVS2HIYGSJqaLoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Laba3\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
+  "projectFilePath": "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\laptop\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.12\\microsoft.aspnetcore.cryptography.internal.7.0.12.nupkg.sha512",

@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Database\Configurations\GroupConfiguration.cs" />
+    <Compile Remove="Database\Configurations\SubjectConfiguration.cs" />
+    <Compile Remove="Database\Configurations\TestConfiguration.cs" />
+    <Compile Remove="Models\Group.cs" />
+    <Compile Remove="Models\Subject.cs" />
+    <Compile Remove="Models\Test.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />

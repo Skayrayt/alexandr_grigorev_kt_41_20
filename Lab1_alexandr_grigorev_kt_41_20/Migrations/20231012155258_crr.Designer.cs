@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Lab1_alexandr_grigorev_kt_41_20.Migrations
 {
-    [DbContext(typeof(StudentDbContext))]
+    [DbContext(typeof(GradesDbContext))]
     [Migration("20231012155258_crr")]
     partial class crr
     {
