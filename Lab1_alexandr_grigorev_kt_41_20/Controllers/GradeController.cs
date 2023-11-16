@@ -2,7 +2,7 @@ using Lab1_alexandr_grigorev_kt_41_20.Interfaces.GradeInterfaces;
 using Lab3.Database;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WeatherForecast;
+
 
 namespace Lab1_alexandr_grigorev_kt_41_20.Controllers
 {

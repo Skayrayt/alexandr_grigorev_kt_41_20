@@ -1,10 +1,11 @@
-﻿using Lab3.Database.Configurations;
+﻿using Lab1_alexandr_grigorev_kt_41_20;
+using Lab3.Database.Configurations;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
-using WeatherForecast;
+
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Lab3.Database

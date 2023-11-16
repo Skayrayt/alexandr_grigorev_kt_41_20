@@ -1,4 +1,4 @@
-﻿namespace WeatherForecast.Database.Helpers
+﻿namespace Lab1_alexandr_grigorev_kt_41_20.Database.Helpers
 {
     public class ColumnType
     {

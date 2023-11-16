@@ -1,4 +1,4 @@
-﻿namespace WeatherForecast
+﻿namespace Lab1_alexandr_grigorev_kt_41_20
 {
     public class Student
     {

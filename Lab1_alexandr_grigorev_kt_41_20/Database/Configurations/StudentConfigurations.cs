@@ -1,7 +1,7 @@
 ﻿﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using WeatherForecast.Database.Helpers;
-using WeatherForecast;
+using Lab1_alexandr_grigorev_kt_41_20.Database.Helpers;
+using Lab1_alexandr_grigorev_kt_41_20;
 
 namespace Lab3.Database.Configurations
 {

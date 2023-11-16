@@ -1,4 +1,5 @@
-﻿using Lab1_alexandr_grigorev_kt_41_20.Interfaces.GradeInterfaces;
+﻿using Lab1_alexandr_grigorev_kt_41_20;
+using Lab1_alexandr_grigorev_kt_41_20.Interfaces.GradeInterfaces;
 using Lab3.Database;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using WeatherForecast;
+
 
 namespace aleksandr_grigorev_kt_41_20.Tests
 {

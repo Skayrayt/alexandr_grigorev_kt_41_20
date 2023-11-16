@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using WeatherForecast;
+
 
 namespace aleksandr_grigorev_kt_41_20.Tests
 {
