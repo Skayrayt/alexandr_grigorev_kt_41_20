@@ -33,7 +33,7 @@ namespace aleksandr_grigorev_kt_41_20.Tests
             {
                 FirstName = "Орлов",
                 LastName = "Максим",
-                SecName = "Белорусович"
+                SecName = "Максимович"
             };
             await ctx.Set<Student>().AddAsync(student);
             await ctx.SaveChangesAsync();
@@ -60,6 +60,17 @@ namespace aleksandr_grigorev_kt_41_20.Tests
             // Arrange
             var ctx = new GradesDbContext(_dbContextOptions);
             var gradeService = new GradeService(ctx);
+
+            var student = new Student
+            {
+                StudentId = 1,
+                FirstName = "Орлов",
+                LastName = "Максим",
+                SecName = "Максимович"
+            };
+            await ctx.Set<Student>().AddAsync(student);
+            await ctx.SaveChangesAsync();
+
             var grade = new Grade
             {
                 GradeNumber = 4,
