@@ -1,3 +1,4 @@
+using Lab1_alexandr_grigorev_kt_41_20.Middlewares;
 using Lab1_alexandr_grigorev_kt_41_20.ServiceExtensions;
 using Lab3.Database;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +39,8 @@ try
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
     app.UseAuthorization();
 
