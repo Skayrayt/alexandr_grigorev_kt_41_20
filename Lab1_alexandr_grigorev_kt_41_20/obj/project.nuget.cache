@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3jyxh5ZE7o3I4c9l0xKbJajikW5jYTgQuUn0Ek9piGRba42DX3un1pLnqSfVOBfOWJto9fYJVS2HIYGSJqaLoA==",
+  "dgSpecHash": "Du45WE2E7trKZA8jMy2efCe/jHxiuruMczFOnVP2N7Qly89e22ghefTHhYoy9uGb5wB8fvv1BQDxK1keOJO4HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\laptop\\source\\repos\\alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20\\Lab1_alexandr_grigorev_kt_41_20.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.12\\microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.12\\microsoft.entityframeworkcore.design.7.0.12.nupkg.sha512",
+    "C:\\Users\\laptop\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.0\\microsoft.entityframeworkcore.inmemory.7.0.0.nupkg.sha512",
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.12\\microsoft.entityframeworkcore.relational.7.0.12.nupkg.sha512",
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.12\\microsoft.entityframeworkcore.tools.7.0.12.nupkg.sha512",
     "C:\\Users\\laptop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

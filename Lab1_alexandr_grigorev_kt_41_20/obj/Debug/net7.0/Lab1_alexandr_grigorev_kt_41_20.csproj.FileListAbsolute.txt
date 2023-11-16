@@ -102,3 +102,4 @@ C:\Users\laptop\source\repos\alexandr_grigorev_kt_41_20\Lab1_alexandr_grigorev_k
 C:\Users\laptop\source\repos\alexandr_grigorev_kt_41_20\Lab1_alexandr_grigorev_kt_41_20\obj\Debug\net7.0\Lab1_alexandr_grigorev_kt_41_20.pdb
 C:\Users\laptop\source\repos\alexandr_grigorev_kt_41_20\Lab1_alexandr_grigorev_kt_41_20\obj\Debug\net7.0\Lab1_alexandr_grigorev_kt_41_20.genruntimeconfig.cache
 C:\Users\laptop\source\repos\alexandr_grigorev_kt_41_20\Lab1_alexandr_grigorev_kt_41_20\obj\Debug\net7.0\ref\Lab1_alexandr_grigorev_kt_41_20.dll
+C:\Users\laptop\source\repos\alexandr_grigorev_kt_41_20\Lab1_alexandr_grigorev_kt_41_20\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
